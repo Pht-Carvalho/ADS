@@ -96,5 +96,6 @@ footer{
         font-size: 20px;   
         font-family:'Times New Roman', Times, serif;
         margin-top: 50px;
+        display: grid;
         
     }
