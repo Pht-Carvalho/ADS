@@ -1,0 +1,99 @@
+  /* Configuração principal de todas as páginas */
+*{margin: 0 auto;padding: 0;background-color: rgb(148, 222, 228);} 
+
+  /* Configurações referentes ao quadrado com texto */
+.tamanho{
+    width: 30%;
+    height: 150%;
+    border: double black 7px;
+}
+.espaco{
+    padding: 30px;
+    text-align: justify;
+}
+.principal{
+    width: 50%;
+    padding: 70px;
+    margin: auto;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;}
+
+
+  /* Configurações para a página Portfólio */
+
+    .principal1{
+        width: 50%;
+        padding: 50px;
+        margin: auto;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        font-size: large;
+        justify-content:center;
+        align-items: center;
+        display: grid;
+    }
+
+.cor1{
+    background-color: rgb(223, 214, 240);
+}
+.cor2 {   /* Configurações para o link do portfólio */
+    background-color: rgb(223, 214, 240);
+    padding: 10px;
+    padding-right: 50px;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.links{   /* Configurações para o menu suspenso horizontal */
+    text-align:center;
+    background-color: rgb(151, 151, 158);
+    padding: 30px;font-size: 200%;
+    width: 100%;
+}
+.box{
+    width: 350;
+    padding: 10PX;
+    border: 5px ridge rgb(17, 20, 20);
+    margin: 0;}
+h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;}
+li{
+    background-color: rgb(223, 214, 240);
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;}
+h2{
+    text-align: center; 
+    background-color: rgb(223, 214, 240);
+    padding: 10px;font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: large;}
+p{margin: 10px;}
+
+  /* Mudar o ponteiro do mouse ao passar pelo botão e background */
+button{
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 100 ;
+    background-color: rgb(129, 161, 247);
+    cursor:pointer;
+    border: double;}
+      
+    /* Mudar a cor da fonte e do background */
+      a:hover {color: rgb(7, 6, 6);background-color: aliceblue;}
+
+footer{
+        text-align:center;
+        background-color: rgb(151, 151, 158);
+        padding: 10px;font-size: 130%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem; 
+        font-size: 20px;   
+        font-family:'Times New Roman', Times, serif
+
+    }
