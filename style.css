@@ -88,7 +88,7 @@ footer{
         text-align:center;
         background-color: rgb(151, 151, 158);
         padding: 10px;font-size: 130%;
-        position: absolute;
+        position: relative;
         left: 0;
         bottom: 0;
         width: 100%;
